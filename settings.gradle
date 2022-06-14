@@ -1,2 +1,3 @@
 rootProject.name = 'onlinestore'
 include 'product-service'
+include 'shopping-service'
