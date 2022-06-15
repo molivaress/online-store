@@ -1,15 +1,14 @@
 server:
   port: 8081
-
 spring:
   cloud:
     config:
       server:
         git:
-          uri: https://molivaress@bitbucket.org/tlearning/online-store.git
+          uri: https://github.com/molivaress/online-store.git
           search-paths: config-data
-          username: ${GIT_USER}
-          password: ${GIT_PASSWORD}
+          #username: ${GIT_USER}
+          #password: ${GIT_PASSWORD}
 
   security:
     user:
