@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: file:/Users/nisum/Pictures/microservices-online-store/online-store
+          uri: file://Users/nisum/Pictures/microservices-online-store/online-store
           search-paths: config-data
 
   security:
