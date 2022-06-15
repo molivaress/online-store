@@ -17,6 +17,15 @@ Proyecto para aplicar lecciones aprendidas sobre microservicios
 
 ## Config Cloud
 
+Para configurar spring cloud se necesita de un repositorio donde va estar almacenado nuestros archivos de configuracion.
+Se realizaron pruebas con los siguientes repositorios:
+
+- GitHub: Soporta autenticación mediante SSH `ERROR PRIVATE KEY`
+- Bitbucket: Soporta autenticación mediante SSH `ERROR PRIVATE KEY`
+- Gitlab: Soporta autenticación mediante SSH y Password `PENDIENTE DE PRUEBAS`
+
+Para efectos del proyecto actual se alojan los archivos de configuracion en GitHub pero como un repositorio público
+
 ![](images/config-cloud.png)
 
 ## Actualizaciones
@@ -38,3 +47,4 @@ server:
 ## Enlaces de interés
 
 - https://www.javatpoint.com/connect-spring-cloud-config-server-to-local-git-repository
+- [spring cloud config with gitlab repository](https://www.youtube.com/watch?v=VAuhoMDnxbk)
