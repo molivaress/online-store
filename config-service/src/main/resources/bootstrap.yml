@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:/Users/nisum/Pictures/microservices-online-store/online-store
+          search-paths: config-data
+
+  security:
+    user:
+      name: root
+      password: s3cr3t

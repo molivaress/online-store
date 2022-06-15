@@ -15,6 +15,10 @@ Proyecto para aplicar lecciones aprendidas sobre microservicios
 - Config Cloud
 - Hystrix
 
+## Config Cloud
+
+![](images/config-cloud.png)
+
 ## Actualizaciones
 
 - Queda pendiente revisar la actualización de la versión de spring (2.7). En estas versiones hay cambios importantes en
@@ -30,3 +34,7 @@ server:
 ````
 
 - Evolucionar hacia una administración con docker y kubernetes
+
+## Enlaces de interés
+
+- https://www.javatpoint.com/connect-spring-cloud-config-server-to-local-git-repository
