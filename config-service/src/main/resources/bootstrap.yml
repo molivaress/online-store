@@ -6,8 +6,10 @@ spring:
     config:
       server:
         git:
-          uri: file://Users/nisum/Pictures/microservices-online-store/online-store
+          uri: https://molivaress@bitbucket.org/tlearning/online-store.git
           search-paths: config-data
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
 
   security:
     user:
