@@ -1,6 +1,7 @@
 package com.olivares.store.shopping.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.olivares.store.shopping.client.model.Customer;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -32,16 +33,19 @@ public class Invoice {
     private Date createAt;
 
 
-
     @Valid
-    @JsonIgnoreProperties({ "hibernateLazyInitializer", "handler" })
+    @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
     @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinColumn(name = "invoice_id")
     private List<InvoiceItem> items;
 
     private String state;
 
-    public Invoice(){
+    @Transient
+    private Customer customer;
+
+
+    public Invoice() {
         items = new ArrayList<>();
     }
 
