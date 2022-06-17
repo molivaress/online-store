@@ -48,3 +48,5 @@ server:
 
 - https://www.javatpoint.com/connect-spring-cloud-config-server-to-local-git-repository
 - [spring cloud config with gitlab repository](https://www.youtube.com/watch?v=VAuhoMDnxbk)
+- [Documentación oficial Hystrix](https://spring.getdocs.org/en-US/spring-cloud-docs/spring-cloud-openfeign/spring-cloud-feign/spring-cloud-feign-hystrix-fallback.html)
+- [Use cases apply Feign and Hystrix](https://stackoverflow.com/questions/61208796/java-feign-client-fallback-cant-call-fallback)
